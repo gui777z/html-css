@@ -37,3 +37,38 @@ nav > a:hover {
     border-radius: 2px;
     transition-duration: 0.7;
 }
+
+main{
+    max-width: 1000px;
+    min-width: 500px;
+    margin: auto;
+}
+main >p{
+    display: flex;
+    align-items: center;
+
+}
+
+
+main > h1, h2 {
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.container > p {
+    flex-direction: column;
+}
+
+
+
+/* img {
+    width: 200px;
+    align-items: center;
+} */
